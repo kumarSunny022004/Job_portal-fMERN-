@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Outfit;
+}
+
+
+@layer base{
+    html{
+        scroll-behavior: smooth;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.rich-text {
+    font-family: Arial, sans-serif; /* Clean and professional font */
+    font-size: 16px; /* Comfortable reading size */
+    line-height: 1.6; /* Good spacing between lines */
+    color: #555; /* Lighter gray for content */
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px; /* Space around the content */
+    border: 1px solid #ddd; /* Subtle border to define the area */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .rich-text h1, .rich-text h2, .rich-text h3 {
+    color: #222; /* Darker shade for headings */
+    margin-top: 20px; /* Space above headers */
+    margin-bottom: 10px; /* Space below headers */
+  }
+  
+  .rich-text p {
+    margin: 10px 0; /* Consistent spacing between paragraphs */
+    color: #555; /* Slightly lighter text for paragraphs */
+  }
+  
+  .rich-text ul {
+    margin: 15px 0;
+    padding-left: 20px; /* Indent list items */
+  }
+  
+  .rich-text ul li {
+    margin: 5px 0; /* Space between list items */
+  }
+  
+  .rich-text strong {
+    font-weight: bold; /* Emphasize bold text */
+    color: #000; /* Make bold text stand out */
+  }
+  
+  .rich-text a {
+    color: #007acc; /* Link color */
+    text-decoration: none; /* No underline by default */
+  }
+  
+  .rich-text a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+  }
+  
+  .rich-text code {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    background-color: #eef; /* Light blue background for code blocks */
+    padding: 2px 4px; /* Padding around code */
+    border-radius: 4px; /* Rounded corners for code */
+  }
+  
+  .rich-text blockquote {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Subtle background for quotes */
+    border-left: 4px solid #007acc; /* Blue bar to highlight quotes */
+    font-style: italic; /* Differentiate quotes with italics */
+  }
+  
+  .rich-text hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd; /* Subtle horizontal rule */
+    margin: 20px 0; /* Space above and below */
+  }
+  
