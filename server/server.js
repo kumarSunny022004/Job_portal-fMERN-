@@ -16,5 +16,5 @@ app.get('/',(req,res) =>res.send("API wroking"))
 const PORT = process.env.PORT || 5000
  
 app.listen(PORT,()=>{
-    console.log(`server is running on the ports ${PORT}`)
+    console.log(`server is runn on the ports ${PORT}`)
 })
